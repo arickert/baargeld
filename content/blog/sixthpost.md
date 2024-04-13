@@ -1,7 +1,6 @@
 ---
 title: Euthyphro
 date: 2023-01-23
-draft: true
 ---
 PERSONS OF THE DIALOGUE: Socrates, Euthyphro.
 
