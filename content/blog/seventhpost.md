@@ -1,7 +1,6 @@
 ---
 title: Meno
 date: 2023-01-23
-draft: true
 ---
 PERSONS OF THE DIALOGUE: Meno, Socrates, A Slave of Meno (Boy), Anytus.
 
