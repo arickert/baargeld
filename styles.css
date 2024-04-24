@@ -7,11 +7,14 @@ body {
     background-color: #355E3B;
 }
 
+
 h1{
     text-align: center;
     font-family: "EB Garamond", serif;
-    font-weight:400;
+    font-weight:500;
     font-size:50px;
+    margin-bottom: 15px;
+
 }
 
 h5 {
@@ -32,7 +35,7 @@ main{
 
 }
 .homeToc{
-    height:161px;
+    height:182px;
     font-size:18px;
 }
 .wrapper {
@@ -45,6 +48,8 @@ main{
     align-items: center;
     justify-content: center;
 }
+
+
 .textbox {
     height:75vh;
     overflow: scroll;
