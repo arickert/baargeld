@@ -7,8 +7,9 @@
     src: url('fonts/AlteHaasGroteskBold.ttf') format('opentype')}
 
 body {
-    height:100vh;
-    width:100vw;
+    height:100dvh;
+    width:100dvw;
+    margin:0px;
 }
 
 
@@ -63,6 +64,7 @@ main{
     font-weight: 500;
     line-height:60%;
     user-select: none;
+    text-align: center;
 ;
 
 }
@@ -143,6 +145,7 @@ a:hover{
     user-select: none;
     padding-top:10vh;
     padding-bottom:10vh;
+    text-align: center;
 ;
 
 }
@@ -160,7 +163,7 @@ a:hover{
 }
 
 .footerbaargeld {
-    width:100vw;
+    width:100%;
     -webkit-text-stroke: 0.06em;
     text-wrap:wrap;
     overflow-wrap:break-word;
@@ -170,6 +173,7 @@ a:hover{
     user-select: none;
     padding-top:10vh;
     padding-bottom:5vh;
+    text-align: center;
 
 
 }
