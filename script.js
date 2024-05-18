@@ -27,7 +27,7 @@ function updateText() {
     const characterWidth = span.getBoundingClientRect().width;
 
     // Calculate the number of 'a's based on the viewport width, excluding "b", "B", and "rgeld"
-    const numOfAs = Math.floor((viewportWidth - bWidth - BWidth - rgeldWidth) / characterWidth);
+    const numOfAs = Math.floor((viewportWidth - characterWidth - 5 - BWidth - rgeldWidth) / characterWidth);
 
     // Create the new text with the calculated number of 'a's
     const newText = 'a'.repeat(numOfAs) + 'rgeld';
