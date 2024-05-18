@@ -171,8 +171,7 @@ a:hover{
     font-weight: 500;
     line-height:60%;
     user-select: none;
-    padding-top:10vh;
-    padding-bottom:5vh;
+    padding-bottom:30px;
     text-align: center;
 
 
@@ -184,6 +183,8 @@ a:hover{
     font-size:18px;
     text-align: center;
     gap:3px;
-    padding-top:25vh;
+    flex-grow: 1; /* This will allow it to expand in the available space */
+    align-items: center;
+    justify-content: center;
 
 }
