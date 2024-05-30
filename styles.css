@@ -17,11 +17,11 @@ h1{
     text-align: center;
     font-family: "EB Garamond", serif;
     font-weight:500;
-    font-size:50px;
+    font-size:40px;
     margin-bottom: 15px;
     /*-webkit-text-stroke: 0.06em;*/
     @media(max-width: 500px){
-        font-size:40px;
+        font-size:32px;
 
     }
 }
@@ -191,15 +191,15 @@ a:hover{
     -webkit-text-stroke: 0.06em;
     text-wrap:wrap;
     overflow-wrap:break-word;
-    font-size:60px;
+    font-size:50px;
     font-weight: 500;
     line-height:60%;
     user-select: none;
-    padding-bottom:25px;
+    padding-bottom:20px;
     text-align: center;
     @media(max-width: 500px){
-        font-size:50px;
-        padding-bottom:20px;
+        font-size:40px;
+        padding-bottom:16px;
 
     }
 
