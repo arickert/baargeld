@@ -20,7 +20,10 @@ h1{
     font-size:50px;
     margin-bottom: 15px;
     /*-webkit-text-stroke: 0.06em;*/
+    @media(max-width: 500px){
+        font-size:40px;
 
+    }
 }
 
 h5 {
@@ -78,8 +81,10 @@ main{
 }
 
 .textbox {
-    overflow: scroll;
-    width: 80vw;
+    overflow-y: scroll;
+    /*width: 80vw;*/
+    padding-left:20px;
+    padding-right:20px;
     font-family: 'Alte';
 }
 .round-wrapper{
@@ -93,6 +98,12 @@ main{
 
 }
 
+.contitle{
+    height:95px;
+    @media(max-width: 500px) {
+        height: 72px;
+    }
+}
 .cont-wrapper{
     display: flex;
     flex-direction: column;
@@ -184,8 +195,13 @@ a:hover{
     font-weight: 500;
     line-height:60%;
     user-select: none;
-    padding-bottom:30px;
+    padding-bottom:25px;
     text-align: center;
+    @media(max-width: 500px){
+        font-size:50px;
+        padding-bottom:20px;
+
+    }
 
 
 }

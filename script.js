@@ -1,6 +1,6 @@
 function updateText() {
     const dynamicText = document.getElementById('dynamicText');
-    const viewportWidth = window.innerWidth;
+    const viewportWidth = document.documentElement.clientWidth;
 
     // Create a span element to measure character widths
     const span = document.createElement('span');
