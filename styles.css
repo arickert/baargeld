@@ -80,12 +80,21 @@ main{
 
 }
 
+.title {
+    padding-top:20px;
+    @media(max-width: 500px) {
+        padding-top:10px;
+    }
+}
 .textbox {
     overflow-y: scroll;
     /*width: 80vw;*/
+    max-width:800px;
     padding-left:20px;
     padding-right:20px;
-    font-family: 'Alte';
+    font-size:18px;
+
+    /*font-family: 'Alte';*/
 }
 .round-wrapper{
     display: flex;
