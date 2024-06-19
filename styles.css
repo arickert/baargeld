@@ -72,6 +72,8 @@ main{
 
 }
 
+
+
 .baarlink{
     user-select: all;
     z-index: 999999;
@@ -90,9 +92,20 @@ main{
     overflow-y: scroll;
     /*width: 80vw;*/
     max-width:800px;
+        padding-left: calc(50vw - 400px);
+        padding-right: calc(50vw - 400px);
+
+    @media(max-width: 800px) {
     padding-left:20px;
     padding-right:20px;
+    }
+
     font-size:18px;
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+        scrollbar-color: gainsboro transparent; /* Transparent scrollbar colors */
+
 
     /*font-family: 'Alte';*/
 }
